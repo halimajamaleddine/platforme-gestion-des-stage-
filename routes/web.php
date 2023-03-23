@@ -18,5 +18,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/inscription',[StagiairesController::class,'form']);
-Route::post('/inscription/formulaire',[StagiairesController::class,'form_stagiaire']);
+Route::get('inscri',function(){
+    return view('formulaireStagiaire');
+});
+
+//Route::get('/inscription',[StagiairesController::class,'form']);
+//Route::post('/inscription/formulaire',[StagiairesController::class,'form_stagiaire']);
