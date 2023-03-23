@@ -24,3 +24,7 @@ Route::get('inscri',function(){
 
 //Route::get('/inscription',[StagiairesController::class,'form']);
 //Route::post('/inscription/formulaire',[StagiairesController::class,'form_stagiaire']);
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

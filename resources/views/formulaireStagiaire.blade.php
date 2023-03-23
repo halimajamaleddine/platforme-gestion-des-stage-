@@ -8,6 +8,7 @@
     <style>
     </style>
     <link href="css\Header.css" rel="stylesheet" />
+    <link href="css\formulaireStagiaire.css" rel="stylesheet" />
 
     <title>Document</title>
 </head>
@@ -26,7 +27,6 @@
 
 
     </div>
-
     <form id="form">
         <p>Sign up once and watch our free things.</p>
 
@@ -79,8 +79,7 @@
         </div>
         </div>
 
-        <button type="submit" class="btn btn-default">Register</button>
-    </form>
+        <button type="button" class="btn btn-outline-secondary">Secondary</button>    </form>
 </body>
 
 </html>
