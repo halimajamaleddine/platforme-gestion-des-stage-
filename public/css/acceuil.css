@@ -5,7 +5,6 @@
     font-size: medium;
     display: flex;
     flex-direction: row;
-
 }
 .image{
     width: 20%;
@@ -31,7 +30,7 @@ li {
 	padding: 1rem 2rem 1.15rem;
   text-transform: uppercase;
   cursor: pointer;
-  color: #4d4d4d;
+  color: #372c2c;
 	min-width: 20%;
 	margin: auto;
 }
@@ -92,10 +91,10 @@ li:active {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  width: 20%;
+  width: 9%;
   will-change: transform;
   position: relative;
-  left: 7%;
+  
 }
 
 .button-28:disabled {

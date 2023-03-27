@@ -18,17 +18,21 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('inscri',function(){
-    return view('formulaireStagiaire');
+Route::get('acceuil',function(){
+    return view('acceuil');
+});
+
+Route::get('inscription',function(){
+    return view ('inscription');
 });
 
 //Route::get('/inscription',[StagiairesController::class,'form']);
 //Route::post('/inscription/formulaire',[StagiairesController::class,'form_stagiaire']);
 
-Auth::routes();
+// Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Auth::routes();
+// Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
